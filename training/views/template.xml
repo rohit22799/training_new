@@ -1,0 +1,19 @@
+<odoo>
+
+    <template id="contact_template" name="Contacts">
+        <t t-call="website.layout">
+            <section class="container" id="contacts_widget">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td>Id</td>
+                            <td>Name</td>
+                        </tr>
+                    </thead>
+                    <tbody class="contacts_table"/>
+                </table>
+            </section>
+        </t>
+    </template>
+
+</odoo>
