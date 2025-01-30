@@ -6,7 +6,9 @@ class Training(http.Controller):
 
     @http.route("/contacts", type="http", auth="public", website=True)
     def contacts(self):
-        return request.render('training.contact_template')
+        return request.render('training.contact_template', {
+            'asd': []
+        })
 
     @http.route('/get/data/contacts', type='json', auth="public", website=True)
     def get_data_contacts(self):

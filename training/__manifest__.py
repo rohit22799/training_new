@@ -14,6 +14,10 @@
     'assets': {
         'web.assets_frontend': [
             'training/static/src/js/contacts.js'
+        ],
+        'web.assets_backend': [
+            'training/static/src/js/product_chart.js',
+            'training/static/src/xml/template.xml',
         ]
     },
     'installable': True,

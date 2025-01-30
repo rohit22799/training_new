@@ -1,0 +1,17 @@
+<templates>
+
+    <t t-name="training.ProductChart">
+        <div>
+            <canvas id="chart" width="400" height="400" />
+<!--            <t t-foreach="productData" t-as="product" t-key="product.id">-->
+<!--                <div>-->
+<!--                    <t t-esc="product.name"/>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <t t-esc="product.price"/>-->
+<!--                </div>-->
+<!--            </t>-->
+        </div>
+    </t>
+
+</templates>
